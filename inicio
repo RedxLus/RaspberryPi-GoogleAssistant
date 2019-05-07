@@ -1,1 +1,16 @@
 /usr/bin/firefox --new-window https://console.actions.google.com
+/usr/bin/firefox --new-window https://console.developers.google.com/apis/library/embeddedassistant.googleapis.com
+/usr/bin/firefox --new-window https://myaccount.google.com/activitycontrols
+
+#microfono
+arecord -l
+
+#altavoz
+aplay -l
+
+wget https://raw.githubusercontent.com/RedxLus/RaspberryPi-GoogleAssistant/master/AudioMicro
+
+
+speaker-test -t wav
+
+arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
