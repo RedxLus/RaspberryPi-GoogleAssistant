@@ -1,4 +1,5 @@
-/usr/bin/firefox --new-window https://console.actions.google.com
+sudo apt-get install firefox-esr
+/usr/bin/chromium-browser --new-window https://console.actions.google.com
 /usr/bin/firefox --new-window https://console.developers.google.com/apis/library/embeddedassistant.googleapis.com
 /usr/bin/firefox --new-window https://myaccount.google.com/activitycontrols
 
